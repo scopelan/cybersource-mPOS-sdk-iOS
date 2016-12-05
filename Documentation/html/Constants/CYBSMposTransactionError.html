@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>CYBSMposTransactionError Constants Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">CYBSMposKit </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">CyberSource</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">CYBSMposTransactionError Constants Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>CYBSMposError.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+
+                    
+                    <h3 class="subsubtitle method-title">CYBSMposTransactionError</h3>
+                    
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(NSInteger, CYBSMposTransactionError ) {<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorMissingFields</a> = 101,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorInvalidData</a> = 102,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorPartialApproved</a> = 110,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorGeneralSystemFailure</a> = 150,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorServerTimeout</a> = 151,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorDidNotFinish</a> = 152,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorDidNotPassAvs</a> = 200,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorIssuingBankHasQuestions</a> = 201,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorExpiredCard</a> = 202,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorGeneralDecline</a> = 203,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorInsufficientFunds</a> = 204,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorStolenOrLostCard</a> = 205,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorIssuingBankUnavailable</a> = 207,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorInactiveCard</a> = 208,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorCidDidNotMatch</a> = 209,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorCreditLimit</a> = 210,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorInvalidCvn</a> = 211,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorNegativeFile</a> = 221,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorDidNotPassCvnCheck</a> = 230,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorInvalidAccountNumber</a> = 231,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorCardTypeNotAccepted</a> = 232,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorGeneralDeclineByProcessor</a> = 233,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorMerchantConfiguration</a> = 234,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorCaptureAmountExceeds</a> = 235,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorProcessorFailure</a> = 236,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorAuthorizationReversed</a> = 237,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorAuthorizationCaptured</a> = 238,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorAmountDidNotMatch</a> = 239,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorInvalidCardType</a> = 240,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorInvalidRequestID</a> = 241,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorNoCorrespondingAuthorization</a> = 242,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorAlreadySettledOrReversed</a> = 243,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorNotVoidable</a> = 246,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorCaptureVoided</a> = 247,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorProcessorTimeout</a> = 250,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposTransactionErrorStandAloneCreditNotAllowed</a> = 254,<br>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorMissingFields"></a><code>CYBSMposTransactionErrorMissingFields</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorInvalidData"></a><code>CYBSMposTransactionErrorInvalidData</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorPartialApproved"></a><code>CYBSMposTransactionErrorPartialApproved</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorGeneralSystemFailure"></a><code>CYBSMposTransactionErrorGeneralSystemFailure</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorServerTimeout"></a><code>CYBSMposTransactionErrorServerTimeout</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorDidNotFinish"></a><code>CYBSMposTransactionErrorDidNotFinish</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorDidNotPassAvs"></a><code>CYBSMposTransactionErrorDidNotPassAvs</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorIssuingBankHasQuestions"></a><code>CYBSMposTransactionErrorIssuingBankHasQuestions</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorExpiredCard"></a><code>CYBSMposTransactionErrorExpiredCard</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorGeneralDecline"></a><code>CYBSMposTransactionErrorGeneralDecline</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorInsufficientFunds"></a><code>CYBSMposTransactionErrorInsufficientFunds</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorStolenOrLostCard"></a><code>CYBSMposTransactionErrorStolenOrLostCard</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorIssuingBankUnavailable"></a><code>CYBSMposTransactionErrorIssuingBankUnavailable</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorInactiveCard"></a><code>CYBSMposTransactionErrorInactiveCard</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorCidDidNotMatch"></a><code>CYBSMposTransactionErrorCidDidNotMatch</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorCreditLimit"></a><code>CYBSMposTransactionErrorCreditLimit</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorInvalidCvn"></a><code>CYBSMposTransactionErrorInvalidCvn</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorNegativeFile"></a><code>CYBSMposTransactionErrorNegativeFile</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorDidNotPassCvnCheck"></a><code>CYBSMposTransactionErrorDidNotPassCvnCheck</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorInvalidAccountNumber"></a><code>CYBSMposTransactionErrorInvalidAccountNumber</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorCardTypeNotAccepted"></a><code>CYBSMposTransactionErrorCardTypeNotAccepted</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorGeneralDeclineByProcessor"></a><code>CYBSMposTransactionErrorGeneralDeclineByProcessor</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorMerchantConfiguration"></a><code>CYBSMposTransactionErrorMerchantConfiguration</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorCaptureAmountExceeds"></a><code>CYBSMposTransactionErrorCaptureAmountExceeds</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorProcessorFailure"></a><code>CYBSMposTransactionErrorProcessorFailure</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorAuthorizationReversed"></a><code>CYBSMposTransactionErrorAuthorizationReversed</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorAuthorizationCaptured"></a><code>CYBSMposTransactionErrorAuthorizationCaptured</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorAmountDidNotMatch"></a><code>CYBSMposTransactionErrorAmountDidNotMatch</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorInvalidCardType"></a><code>CYBSMposTransactionErrorInvalidCardType</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorInvalidRequestID"></a><code>CYBSMposTransactionErrorInvalidRequestID</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorNoCorrespondingAuthorization"></a><code>CYBSMposTransactionErrorNoCorrespondingAuthorization</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorAlreadySettledOrReversed"></a><code>CYBSMposTransactionErrorAlreadySettledOrReversed</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorNotVoidable"></a><code>CYBSMposTransactionErrorNotVoidable</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorCaptureVoided"></a><code>CYBSMposTransactionErrorCaptureVoided</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorProcessorTimeout"></a><code>CYBSMposTransactionErrorProcessorTimeout</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposTransactionErrorStandAloneCreditNotAllowed"></a><code>CYBSMposTransactionErrorStandAloneCreditNotAllowed</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
+                    
+
+                    
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2016 CyberSource. All rights reserved. Updated: 2016-11-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

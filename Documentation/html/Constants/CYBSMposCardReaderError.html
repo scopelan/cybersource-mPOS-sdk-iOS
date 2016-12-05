@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>CYBSMposCardReaderError Constants Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">CYBSMposKit </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">CyberSource</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">CYBSMposCardReaderError Constants Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>CYBSMposError.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+
+                    
+                    <h3 class="subsubtitle method-title">CYBSMposCardReaderError</h3>
+                    
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(NSInteger, CYBSMposCardReaderError ) {<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerInvalidInput</a> = 1001,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerInvalidInputNotNumeric</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerInvalidInputInputValueOutOfRange</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerInvalidInputInvalidDataFormat</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerInvalidInputNoAcceptAmountForThisTransactionType</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerInvalidInputNotAcceptCashbackForThisTransactionType</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerDeviceReset</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerCommError</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerUnknown</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerAudioFailToStart</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerAudioNotYetStarted</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerIllegalStateException</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerCommandNotAvailable</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerAudioRecordingPermissionDenied</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerBackgroundTimeout</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerAudioFailToStart_OtherAudioIsPlaying</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerDeviceBusy</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerTerminated</a> = 1101,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerDeclined</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerSetAmountCancelOrTimeout</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerCapkFail</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerNotIcc</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerCardBlocked</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerDeviceError</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerCardNotSupported</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerMissingMandatoryData</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerNoEmvApps</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerInvalidIccData</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerConditionsOfUseNotSatisfied</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerApplicationBlocked</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CYBSMposCardReaderErrorAWCWalkerIccCardRemoved</a>,<br>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerInvalidInput"></a><code>CYBSMposCardReaderErrorAWCWalkerInvalidInput</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerInvalidInputNotNumeric"></a><code>CYBSMposCardReaderErrorAWCWalkerInvalidInputNotNumeric</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerInvalidInputInputValueOutOfRange"></a><code>CYBSMposCardReaderErrorAWCWalkerInvalidInputInputValueOutOfRange</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerInvalidInputInvalidDataFormat"></a><code>CYBSMposCardReaderErrorAWCWalkerInvalidInputInvalidDataFormat</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerInvalidInputNoAcceptAmountForThisTransactionType"></a><code>CYBSMposCardReaderErrorAWCWalkerInvalidInputNoAcceptAmountForThisTransactionType</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerInvalidInputNotAcceptCashbackForThisTransactionType"></a><code>CYBSMposCardReaderErrorAWCWalkerInvalidInputNotAcceptCashbackForThisTransactionType</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerDeviceReset"></a><code>CYBSMposCardReaderErrorAWCWalkerDeviceReset</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerCommError"></a><code>CYBSMposCardReaderErrorAWCWalkerCommError</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerUnknown"></a><code>CYBSMposCardReaderErrorAWCWalkerUnknown</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerAudioFailToStart"></a><code>CYBSMposCardReaderErrorAWCWalkerAudioFailToStart</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerAudioNotYetStarted"></a><code>CYBSMposCardReaderErrorAWCWalkerAudioNotYetStarted</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerIllegalStateException"></a><code>CYBSMposCardReaderErrorAWCWalkerIllegalStateException</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerCommandNotAvailable"></a><code>CYBSMposCardReaderErrorAWCWalkerCommandNotAvailable</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerAudioRecordingPermissionDenied"></a><code>CYBSMposCardReaderErrorAWCWalkerAudioRecordingPermissionDenied</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerBackgroundTimeout"></a><code>CYBSMposCardReaderErrorAWCWalkerBackgroundTimeout</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerAudioFailToStart_OtherAudioIsPlaying"></a><code>CYBSMposCardReaderErrorAWCWalkerAudioFailToStart_OtherAudioIsPlaying</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerDeviceBusy"></a><code>CYBSMposCardReaderErrorAWCWalkerDeviceBusy</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerTerminated"></a><code>CYBSMposCardReaderErrorAWCWalkerTerminated</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerDeclined"></a><code>CYBSMposCardReaderErrorAWCWalkerDeclined</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerSetAmountCancelOrTimeout"></a><code>CYBSMposCardReaderErrorAWCWalkerSetAmountCancelOrTimeout</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerCapkFail"></a><code>CYBSMposCardReaderErrorAWCWalkerCapkFail</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerNotIcc"></a><code>CYBSMposCardReaderErrorAWCWalkerNotIcc</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerCardBlocked"></a><code>CYBSMposCardReaderErrorAWCWalkerCardBlocked</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerDeviceError"></a><code>CYBSMposCardReaderErrorAWCWalkerDeviceError</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerCardNotSupported"></a><code>CYBSMposCardReaderErrorAWCWalkerCardNotSupported</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerMissingMandatoryData"></a><code>CYBSMposCardReaderErrorAWCWalkerMissingMandatoryData</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerNoEmvApps"></a><code>CYBSMposCardReaderErrorAWCWalkerNoEmvApps</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerInvalidIccData"></a><code>CYBSMposCardReaderErrorAWCWalkerInvalidIccData</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerConditionsOfUseNotSatisfied"></a><code>CYBSMposCardReaderErrorAWCWalkerConditionsOfUseNotSatisfied</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerApplicationBlocked"></a><code>CYBSMposCardReaderErrorAWCWalkerApplicationBlocked</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CYBSMposCardReaderErrorAWCWalkerIccCardRemoved"></a><code>CYBSMposCardReaderErrorAWCWalkerIccCardRemoved</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CYBSMposError.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
+                    
+
+                    
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2016 CyberSource. All rights reserved. Updated: 2016-11-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

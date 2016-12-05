@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BC296661C5A814700CC7063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC296651C5A814700CC7063 /* AppDelegate.swift */; };
+		4BC296681C5A814700CC7063 /* PlaceOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC296671C5A814700CC7063 /* PlaceOrderViewController.swift */; };
+		4BC2966B1C5A814700CC7063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC296691C5A814700CC7063 /* Main.storyboard */; };
+		4BC2966D1C5A814700CC7063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC2966C1C5A814700CC7063 /* Assets.xcassets */; };
+		4BC296701C5A814700CC7063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC2966E1C5A814700CC7063 /* LaunchScreen.storyboard */; };
+		985EDAAF1D55326B00797BEA /* CYBSMposKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985EDAAB1D55324A00797BEA /* CYBSMposKit.framework */; };
+		985EDAB01D55326B00797BEA /* CYBSMposKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 985EDAAB1D55324A00797BEA /* CYBSMposKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		985FA9221D2DB15A000CA276 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985FA9211D2DB15A000CA276 /* HistoryTableViewController.swift */; };
+		985FA9291D2DC07F000CA276 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985FA9281D2DC07F000CA276 /* SettingsTableViewController.swift */; };
+		987850401D105DD60048490A /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878503F1D105DD60048490A /* SettingsTableViewCell.swift */; };
+		987850481D10C6070048490A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987850471D10C6070048490A /* Settings.swift */; };
+		9878504F1D10D8AE0048490A /* KeychainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9878504E1D10D8AE0048490A /* KeychainStore.m */; };
+		98812D851D5D63DF0061EF7C /* TransactionActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98812D841D5D63DF0061EF7C /* TransactionActionCell.swift */; };
+		988443A11D4B2A9A00EE332E /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988443A01D4B2A9A00EE332E /* SearchTableViewController.swift */; };
+		988443AD1D4BB53D00EE332E /* TransactionDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988443AC1D4BB53D00EE332E /* TransactionDetailTableViewController.swift */; };
+		989BA9221D63BF4100DE2A0C /* PlaceOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989BA9211D63BF4100DE2A0C /* PlaceOrderView.swift */; };
+		98A5776F1D1B2FF00094667A /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A5776D1D1B2FF00094667A /* CocoaLumberjackSwift.framework */; };
+		98A577701D1B2FF00094667A /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98A5776D1D1B2FF00094667A /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98A577711D1B2FF00094667A /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A5776E1D1B2FF00094667A /* CocoaLumberjack.framework */; };
+		98A577721D1B2FF00094667A /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98A5776E1D1B2FF00094667A /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98AE00831D4A6AC0007ACA49 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE00821D4A6AC0007ACA49 /* HistoryTableViewCell.swift */; };
+		98DC5C831D480591008C5334 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC5C821D480591008C5334 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		989F8A491D131EE400CE478C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				98A577701D1B2FF00094667A /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+				98A577721D1B2FF00094667A /* CocoaLumberjack.framework in Embed Frameworks */,
+				985EDAB01D55326B00797BEA /* CYBSMposKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4BC296621C5A814700CC7063 /* CYBSMposKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYBSMposKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC296651C5A814700CC7063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BC296671C5A814700CC7063 /* PlaceOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderViewController.swift; sourceTree = "<group>"; };
+		4BC2966A1C5A814700CC7063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BC2966C1C5A814700CC7063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BC2966F1C5A814700CC7063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BC296711C5A814700CC7063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC2967C1C5AD30500CC7063 /* CYBSMposKitDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CYBSMposKitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		985EDAAB1D55324A00797BEA /* CYBSMposKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CYBSMposKit.framework; sourceTree = "<group>"; };
+		985FA9211D2DB15A000CA276 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		985FA9281D2DC07F000CA276 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		9878503F1D105DD60048490A /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		987850471D10C6070048490A /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9878504D1D10D8AE0048490A /* KeychainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainStore.h; sourceTree = "<group>"; };
+		9878504E1D10D8AE0048490A /* KeychainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainStore.m; sourceTree = "<group>"; };
+		98812D841D5D63DF0061EF7C /* TransactionActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionActionCell.swift; sourceTree = "<group>"; };
+		988443A01D4B2A9A00EE332E /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		988443AC1D4BB53D00EE332E /* TransactionDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDetailTableViewController.swift; sourceTree = "<group>"; };
+		989BA9211D63BF4100DE2A0C /* PlaceOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceOrderView.swift; sourceTree = "<group>"; };
+		98A5776D1D1B2FF00094667A /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
+		98A5776E1D1B2FF00094667A /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		98AE00821D4A6AC0007ACA49 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		98DC5C821D480591008C5334 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BC2965F1C5A814700CC7063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A5776F1D1B2FF00094667A /* CocoaLumberjackSwift.framework in Frameworks */,
+				98A577711D1B2FF00094667A /* CocoaLumberjack.framework in Frameworks */,
+				985EDAAF1D55326B00797BEA /* CYBSMposKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BC296591C5A814700CC7063 = {
+			isa = PBXGroup;
+			children = (
+				985EDAAB1D55324A00797BEA /* CYBSMposKit.framework */,
+				98A5776E1D1B2FF00094667A /* CocoaLumberjack.framework */,
+				98A5776D1D1B2FF00094667A /* CocoaLumberjackSwift.framework */,
+				4BC296641C5A814700CC7063 /* CYBSMposKitDemo */,
+				4BC296631C5A814700CC7063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BC296631C5A814700CC7063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BC296621C5A814700CC7063 /* CYBSMposKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BC296641C5A814700CC7063 /* CYBSMposKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4BC296651C5A814700CC7063 /* AppDelegate.swift */,
+				4BC2966C1C5A814700CC7063 /* Assets.xcassets */,
+				4BC2967C1C5AD30500CC7063 /* CYBSMposKitDemo-Bridging-Header.h */,
+				98AE00821D4A6AC0007ACA49 /* HistoryTableViewCell.swift */,
+				985FA9211D2DB15A000CA276 /* HistoryTableViewController.swift */,
+				4BC296711C5A814700CC7063 /* Info.plist */,
+				9878504D1D10D8AE0048490A /* KeychainStore.h */,
+				9878504E1D10D8AE0048490A /* KeychainStore.m */,
+				4BC2966E1C5A814700CC7063 /* LaunchScreen.storyboard */,
+				4BC296691C5A814700CC7063 /* Main.storyboard */,
+				4BC296671C5A814700CC7063 /* PlaceOrderViewController.swift */,
+				987850471D10C6070048490A /* Settings.swift */,
+				9878503F1D105DD60048490A /* SettingsTableViewCell.swift */,
+				985FA9281D2DC07F000CA276 /* SettingsTableViewController.swift */,
+				98DC5C821D480591008C5334 /* Utils.swift */,
+				988443A01D4B2A9A00EE332E /* SearchTableViewController.swift */,
+				988443AC1D4BB53D00EE332E /* TransactionDetailTableViewController.swift */,
+				98812D841D5D63DF0061EF7C /* TransactionActionCell.swift */,
+				989BA9211D63BF4100DE2A0C /* PlaceOrderView.swift */,
+			);
+			path = CYBSMposKitDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BC296611C5A814700CC7063 /* CYBSMposKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC296741C5A814700CC7063 /* Build configuration list for PBXNativeTarget "CYBSMposKitDemo" */;
+			buildPhases = (
+				4BC2965E1C5A814700CC7063 /* Sources */,
+				4BC2965F1C5A814700CC7063 /* Frameworks */,
+				4BC296601C5A814700CC7063 /* Resources */,
+				989F8A491D131EE400CE478C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYBSMposKitDemo;
+			productName = VMposKitDemo;
+			productReference = 4BC296621C5A814700CC7063 /* CYBSMposKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BC2965A1C5A814700CC7063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = CyberSource;
+				TargetAttributes = {
+					4BC296611C5A814700CC7063 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3UMV74ZSR6;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 4BC2965D1C5A814700CC7063 /* Build configuration list for PBXProject "CYBSMposKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BC296591C5A814700CC7063;
+			productRefGroup = 4BC296631C5A814700CC7063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BC296611C5A814700CC7063 /* CYBSMposKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BC296601C5A814700CC7063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC296701C5A814700CC7063 /* LaunchScreen.storyboard in Resources */,
+				4BC2966D1C5A814700CC7063 /* Assets.xcassets in Resources */,
+				4BC2966B1C5A814700CC7063 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BC2965E1C5A814700CC7063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988443AD1D4BB53D00EE332E /* TransactionDetailTableViewController.swift in Sources */,
+				98AE00831D4A6AC0007ACA49 /* HistoryTableViewCell.swift in Sources */,
+				4BC296681C5A814700CC7063 /* PlaceOrderViewController.swift in Sources */,
+				9878504F1D10D8AE0048490A /* KeychainStore.m in Sources */,
+				4BC296661C5A814700CC7063 /* AppDelegate.swift in Sources */,
+				987850401D105DD60048490A /* SettingsTableViewCell.swift in Sources */,
+				98812D851D5D63DF0061EF7C /* TransactionActionCell.swift in Sources */,
+				985FA9291D2DC07F000CA276 /* SettingsTableViewController.swift in Sources */,
+				985FA9221D2DB15A000CA276 /* HistoryTableViewController.swift in Sources */,
+				988443A11D4B2A9A00EE332E /* SearchTableViewController.swift in Sources */,
+				989BA9221D63BF4100DE2A0C /* PlaceOrderView.swift in Sources */,
+				987850481D10C6070048490A /* Settings.swift in Sources */,
+				98DC5C831D480591008C5334 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BC296691C5A814700CC7063 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC2966A1C5A814700CC7063 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BC2966E1C5A814700CC7063 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC2966F1C5A814700CC7063 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BC296721C5A814700CC7063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BC296731C5A814700CC7063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC296751C5A814700CC7063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3UMV74ZSR6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CYBSMposKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = cybersource.CYBSMposKitDemo;
+				PRODUCT_NAME = CYBSMposKitDemo;
+				PROVISIONING_PROFILE = "10a6c880-b7fc-47f7-8dc5-28fc54a6ac7d";
+				PROVISIONING_PROFILE_SPECIFIER = CYBSMposKitDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "CYBSMposKitDemo/CYBSMposKitDemo-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BC296761C5A814700CC7063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3UMV74ZSR6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CYBSMposKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = cybersource.CYBSMposKitDemo;
+				PRODUCT_NAME = CYBSMposKitDemo;
+				PROVISIONING_PROFILE = "10a6c880-b7fc-47f7-8dc5-28fc54a6ac7d";
+				PROVISIONING_PROFILE_SPECIFIER = CYBSMposKitDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "CYBSMposKitDemo/CYBSMposKitDemo-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BC2965D1C5A814700CC7063 /* Build configuration list for PBXProject "CYBSMposKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC296721C5A814700CC7063 /* Debug */,
+				4BC296731C5A814700CC7063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC296741C5A814700CC7063 /* Build configuration list for PBXNativeTarget "CYBSMposKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC296751C5A814700CC7063 /* Debug */,
+				4BC296761C5A814700CC7063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BC2965A1C5A814700CC7063 /* Project object */;
+}
