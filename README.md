@@ -89,3 +89,11 @@ func performPaymentDidFinish(result: CYBSMposPaymentResult?,
   }
 }
 ```
+
+## SDK Error Messages
+
+Error Message | Description | Solution
+------------- | ----------- | --------
+UNKNOWN_READER_ERROR| The card reader was not recognized. | Navigate to the Android phone settings and select **Applications > Application manager > Demo app**. Enable audio, storage, and all related options.
+INTERNAL_ERROR | There was a problem in the CyberSource Environment. | Contact CyberSource technical support.
+TRANSACTION_TERMINATED | The transaction request failed. | Ensure that you are using the right credentials for your environment. The Test and Production environments use different credentials.
